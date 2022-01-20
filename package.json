@@ -1,0 +1,19 @@
+{
+  "name": "india-markets-cron-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/build-web-apps/india-markets-cron-job.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/build-web-apps/india-markets-cron-job/issues"
+  },
+  "homepage": "https://github.com/build-web-apps/india-markets-cron-job#readme"
+}

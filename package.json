@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "mongoose": "^6.1.7",
+    "node-html-parser": "^5.2.0",
+    "request": "^2.88.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/build-web-apps/india-markets-cron-job.git"

@@ -3,13 +3,14 @@ const Database = require("./Database");
 const ScrapWorker = require("./ScrapWorker");
 
 class NewsFetcher {
-    constructor() {
-        this.activities = [{
+    constructor(activities) {
+        this.activities = activities || [{
             url: 'https://pulse.zerodha.com/',
             identifier: '#news .box.item'
         }]
 
         this.start();
+        console.log('Inside news fetcher');
     }
 
     start() {
@@ -39,7 +40,7 @@ class NewsFetcher {
                 };
                 news.push(data);
             })
-            Database.dump(news).then(data => console.log('Success')).catch('Error');
+            // Database.dump(news).then(data => console.log('Success')).catch('Error');
         });
     }
 }

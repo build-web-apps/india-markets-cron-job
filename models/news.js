@@ -17,7 +17,13 @@ const NewsSchema = new Schema({
     },
     feed: {
         type: String
+    },
+    category: {
+        type: String
+    },
+    image: {
+        type: String
     }
 });
 
-module.exports = mongoose.model('news', NewsSchema);
+module.exports = mongoose.model('newsTemp', NewsSchema);

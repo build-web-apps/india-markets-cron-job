@@ -26,4 +26,4 @@ const NewsSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('newsTemp', NewsSchema);
+module.exports = mongoose.model('news', NewsSchema);
